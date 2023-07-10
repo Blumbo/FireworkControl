@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fireworkcontrol",
+  "version": "${version}",
+  "name": "FireworkControl",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.blumbo.fireworkcontrol.FireworkControl"
+    ]
+  },
+  "mixins": [
+    "fireworkcontrol.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": ">=1.20"
+  }
+}
